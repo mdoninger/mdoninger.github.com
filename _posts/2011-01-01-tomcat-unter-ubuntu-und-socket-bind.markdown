@@ -4,6 +4,7 @@ name: tomcat-unter-ubuntu-und-socket-bind
 title: "Tomcat unter Ubuntu und \"Socket bind failed: [98] Address already in use\""
 time: 2011-01-01 23:08:00 +01:00
 comments: true
+published: false
 ---
 Ich hatte ewig Probleme, Tomcat 6 unter Ubuntu mit aktiviertem SSL (unter Verwendung von OpenSSL und APR) zum Laufen zu bringen. 
 Die Fehlermeldungen im Log lauteten immer "java.lang.Exception: Socket bind failed: [98] Address already in use". Problemlösungen 

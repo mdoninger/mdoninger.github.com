@@ -3,7 +3,8 @@ layout: post
 title: "Write Groovy scripts for Jenkins with code completion"
 date: 2011-11-07 17:30
 comments: true
-categories: 
+categories:
+published: false
 ---
 
 In the Jenkins instance of my company we have now over 80 jobs. Sometimes i have to configure the same thing in many jobs, and the easiest thing for that is a Groovy script.
