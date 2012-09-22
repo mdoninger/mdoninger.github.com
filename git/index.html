@@ -6,3 +6,9 @@ description: ""
 group: tutorial_top
 ---
 {% include JB/setup %}
+
+<ul>
+    {% assign pages_list = site.pages %}
+    {% assign group = 'git' %}
+    {% include JB/pages_list %}
+</ul>
