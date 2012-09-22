@@ -9,7 +9,7 @@ subtitle: Java and everything else
 #simple_search: http://google.com/search
 description:
 
-subscribe_rss: /atom.xml
+#subscribe_rss: /atom.xml
 
 production_url : http://username.github.com
 
@@ -77,7 +77,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -97,7 +97,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-17472058-6'
     getclicky :
       site_id :
     mixpanel :
