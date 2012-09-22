@@ -1,13 +1,17 @@
 <ul class="nav">
     <li><a href="http://blog.doninger.net" target="_blank">Blog</a></li>
-    {% assign pages_list = site.pages %}
-    {% assign group = 'navigation' %}
-    {% include JB/pages_list %}
+
+
     <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles</a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials</a>
         <ul class="dropdown-menu">
-            <li><a href="{{ root_url }}/javaee/">Java EE</a></li>
-            <li><a href="{{ root_url }}/git/">Git</a></li>
+            {% assign pages_list = site.pages %}
+            {% assign group = 'tutorial_top' %}
+            {% include JB/pages_list %}
         </ul>
     </li>
+
+    {% assign pages_list = site.pages %}
+    {% assign group = 'mainmenu' %}
+    {% include JB/pages_list %}
 </ul>
