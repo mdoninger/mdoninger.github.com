@@ -24,12 +24,19 @@ Usage:
   {% include custom/pages_list %}
 {% else %}
   {% for node in pages_list %}
-    {% if node.title != null %}
+    {% if node.menuentry != null %}
+      {% assign entrytitle = node.menuentry %}
+    {% else %}
+      {% if node.title != null %}
+        {% assign entrytitle = node.title %}
+      {% endif %}
+    {% endif %}
+    {% if entrytitle != null %}
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{entrytitle}}</a></li>
       	{% else %}
-      	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+      	<li><a href="{{ BASE_PATH }}{{node.url}}">{{entrytitle}}</a></li>
       	{% endif %}
       {% endif %}
     {% endif %}
