@@ -4,7 +4,7 @@ name: gerrit-with-apache-as-reverse-proxy
 title: Gerrit with Apache as Reverse Proxy
 time: 2011-01-11 11:11:00 +01:00
 comments: true
-published: false
+published: true
 ---
 This is an example how to configure Apache as a Reverse Proxy with SSL and Gerrit:<br /><br />Apache VHost configuration:<br /><br />
 <span class="Apple-style-span" style="background-color: #eeeeee;">NameVirtualHost *:443</span><br />
