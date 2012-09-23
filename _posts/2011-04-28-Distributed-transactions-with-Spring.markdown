@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Distributed transactions with Spring
-published: true
+published: false
 ---
 This is the first article of my blog series "Distributed transactions with Spring and Atomikos TransactionEssentials". 
 In this series i will explain with some examples, how to get distributed transactions working in a Java SE application 
