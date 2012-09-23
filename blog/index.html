@@ -1,0 +1,28 @@
+---
+layout: page
+title: "Blogposts"
+menuentry: Blog
+description: ""
+group: mainmenu_group1
+---
+{% include JB/setup %}
+
+<div class="span10">
+    {% assign index = true %}
+    {% for post in paginator.posts %}
+    {% assign content = post.content %}
+    <h1>{{ post.title }}</h1>
+    <article>
+        {{ post.content }}
+    </article>
+    {% endfor %}
+    <ul class="pager">
+        {% if paginator.next_page %}
+        <li class="previous"><a href="/page{{paginator.next_page}}">&larr; Older</a></li>
+        {% endif %}
+        <li><a href="/blog/archive.html">Blog Archives</a></li>
+        {% if paginator.previous_page %}
+        <li class="next"><a href="/page{{paginator.previous_page}}">Newer &rarr;</a></li>
+        {% endif %}
+    </ul>
+</div>
