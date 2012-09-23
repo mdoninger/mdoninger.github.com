@@ -6,6 +6,13 @@ title: Manuel Doninger
 <div id="home">
     <h1>Welcome</h1>
 
+    <h2>Latest Posts</h2>
+    <ul class="posts">
+        {% for post in site.posts limit:5 %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+
     <h2>Tutorial categories</h2>
     <ul>
     {% assign pages_list = site.pages %}
