@@ -1,3 +1,11 @@
 .paddingtop {
     padding: 40px;
 }
+
+.inlineblock {
+    display: inline-block;
+}
+
+.sharebutton {
+    height: 30px;
+}
