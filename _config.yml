@@ -13,7 +13,7 @@ description:
 
 production_url : http://username.github.com
 
-paginate: 5
+#paginate: 5
 
 author :
   name : Manuel Doninger
