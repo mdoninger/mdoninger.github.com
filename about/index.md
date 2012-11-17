@@ -23,9 +23,4 @@ All articles are written in Markdown. The whole site is hosted at [Github Pages]
 For easier writing i use Jekyll Bootstrap, which provides some nice extensions for Jekyll. The theme is based on Twitter Bootstrap
 and the Bootswatch United color scheme.
 
-## Other questions
-### Is this page a copy of [vogella.com](http://vogella.com)?
-In case you wonder: No it isn't. But the great tutorials of Lars inspired me to create this site and share my knowledge.
-I also won't publish any tutorials on my site, which he already has on his page, since i want to concentrate on other problems.
-
 {% include JB/setup %}
