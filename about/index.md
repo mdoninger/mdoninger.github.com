@@ -8,10 +8,7 @@ group: mainmenu
 
 ## Who?
 
-My name is Manuel Doninger, and i'm currently working as a software developer at MARKANT Handels und Service GmbH, a
-service company for the trade and industry.
-I'm primarily working on some Java EE applications, administering IBM WebSphere, managing the whole development infrastructure
-like version control systems (Git and CVS), build system (Jenkins) and coaching for other development teams on Maven, Git etc.
+My name is Manuel Doninger, and i'm currently working as a software developer at Booxware Softwareentwicklungs GmbH.
 
 ## Why?
 During my daily work, i often face some problems, where i hardly can find a solution (esp. in conjunction with WebSphere).
