@@ -22,6 +22,8 @@ layout: default
 
     <h2>Recommended Open Source Projects</h2>
     <ul class="posts">
+        <li><a href="http://projects.spring.io/spring-boot">Spring Boot - Simplifies bootstrapping of Spring applications</a></li>
+        <li><a href="http://start.spring.io">Spring Initializr - simple UI to create initial project structure for Spring Boot projects</a></li>
         <li><a href="http://github.com/mojombo/jekyll/">Jekyll:</a> A simple, blog aware, static site generator (used for this site).</li>
     </ul>
 </div>
