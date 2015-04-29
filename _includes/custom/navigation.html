@@ -1,0 +1,18 @@
+<ul class="nav">
+  {% assign pages_list = site.pages %}
+  {% assign group = 'mainmenu_group1' %}
+  {% include fragments/pages_list %}
+
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials</a>
+    <ul class="dropdown-menu">
+      {% assign pages_list = site.pages %}
+      {% assign group = 'tutorial_top' %}
+      {% include fragments/pages_list %}
+    </ul>
+  </li>
+
+  {% assign pages_list = site.pages %}
+  {% assign group = 'mainmenu' %}
+  {% include fragments/pages_list %}
+</ul>

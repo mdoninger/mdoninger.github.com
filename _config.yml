@@ -1,0 +1,28 @@
+# Site settings
+url: http://mdoninger.github.com
+title: Manuel Doninger
+tagline: Java and everything else
+subtitle: Java and everything else
+
+email : manuel.doninger@gmail.com
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+url: "http://www.mdoninger.de" # the base hostname & protocol for your site
+
+author :
+  name : Manuel Doninger
+  email : manuel.doninger@gmail.com
+  github : mdoninger
+  twitter : mdoninger
+  feedburner : manueldoninger
+
+twitter_username: mdoninger
+github_username:  mdoninger
+
+# Build settings
+markdown: kramdown
+
+permalink: /:categories/:year/:month/:day/:title
+
+tags_path : /tags.html
