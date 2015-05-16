@@ -23,7 +23,7 @@ github_username:  mdoninger
 # Build settings
 markdown: kramdown
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title.html
 
 tags_path : /tags.html
 archive_path: /blog/index.html
