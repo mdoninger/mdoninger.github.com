@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code completion for custom properties in Spring Boot"
-date: 2015-04-30T09:14:18+02:00
+date: 2015-05-16T12:00:00+02:00
 published: true
 ---
 

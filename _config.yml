@@ -26,3 +26,9 @@ markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title
 
 tags_path : /tags.html
+archive_path: /blog/index.html
+
+comments :
+    provider : disqus
+    disqus :
+      short_name : manueldoninger
