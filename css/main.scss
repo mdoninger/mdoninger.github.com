@@ -119,3 +119,17 @@ $on-laptop:        800px;
 .pagination-right {
   text-align: right;
 }
+
+.inlineblock {
+  display: inline-block;
+}
+
+.sharebutton {
+  height: 30px;
+  float: left;
+  margin-right: 20px;
+}
+
+div.fb-like.fb_iframe_widget span {
+  vertical-align: top !important;
+}
