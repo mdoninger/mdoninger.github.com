@@ -1,4 +1,4 @@
-{% if site.JB.sharing.googleplus == true %}
+{% if site.sharing.googleplus == true %}
 <!-- Place this tag after the last +1 button tag. -->
 <script type="text/javascript">
     (function() {
@@ -8,7 +8,7 @@
     })();
 </script>
 {% endif %}
-{% if site.JB.sharing.twitter == true %}
+{% if site.sharing.twitter == true %}
 <script>
     !function(d,s,id){
         var js,fjs=d.getElementsByTagName(s)[0];
@@ -21,7 +21,7 @@
     }(document,"script","twitter-wjs");
 </script>
 {% endif %}
-{% if site.JB.sharing.facebook == true %}
+{% if site.sharing.facebook == true %}
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];

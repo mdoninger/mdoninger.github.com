@@ -1,11 +1,11 @@
-{% if site.JB.sharing.googleplus == true %}
+{% if site.sharing.googleplus == true %}
 <div class="inlineblock sharebutton">
 <div class="g-plusone" data-size="medium" data-annotation="none"></div>
 </div>
 {% endif %}
-{% if site.JB.sharing.facebook == true %}
+{% if site.sharing.facebook == true %}
 <div class="inlineblock sharebutton"><div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-action="recommend" data-font="arial"></div></div>
 {% endif %}
-{% if site.JB.sharing.twitter == true %}
+{% if site.sharing.twitter == true %}
 <div class="inlineblock sharebutton"><a href="https://twitter.com/share" class="twitter-share-button" data-via="mdoninger" data-dnt="true">Tweet</a></div>
 {% endif %}

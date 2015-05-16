@@ -32,3 +32,9 @@ comments :
     provider : disqus
     disqus :
       short_name : manueldoninger
+
+sharing :
+    provider : custom
+    googleplus: true
+    twitter: true
+    facebook: true

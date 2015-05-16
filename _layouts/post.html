@@ -34,4 +34,15 @@ layout: default
     </div>
     <hr>
     {% include comments %}
+
+    <div class="span4">
+        <h4>Share</h4>
+        {% if site.safe == false %}
+        UNSAFE
+        {% endif %}
+        <div style="">
+            {% include sharing %}
+        </div>
+
+    </div>
 </div>
