@@ -14,7 +14,7 @@ layout: default
     </article>
 
 
-    <hr>
+    <hr/>
     <div class="pagination">
         <ul>
             {% if page.previous %}
@@ -32,9 +32,7 @@ layout: default
             {% endif %}
         </ul>
     </div>
-    <hr>
-    {% include comments %}
-
+    <hr/>
     <div class="span4">
         <h4>Share</h4>
         {% if site.safe == false %}
@@ -45,4 +43,8 @@ layout: default
         </div>
 
     </div>
+    <hr/>
+    {% include comments %}
+
+
 </div>
