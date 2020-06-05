@@ -8,7 +8,7 @@ group: mainmenu
 
 ## Who?
 
-My name is Manuel Doninger, and i'm currently working as a software developer and consultant. My main fields are web applications and desktop applications written in Java.
+My name is Manuel Doninger, and i'm currently working as a software architect.
 
 ## Why?
 During my daily work, i often face some problems, where i hardly can find a solution (esp. in conjunction with WebSphere).
