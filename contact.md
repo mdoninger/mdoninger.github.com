@@ -13,8 +13,6 @@ to [manuel.doninger@gmail.com](mailto:manuel.doninger@gmail.com).
 You can find my profiles on various social platforms:
 
 - [Github](https://github.com/mdoninger)
-- [Twitter](http://www.twitter.com/mdoninger)
-- [Google Plus](https://plus.google.com/u/0/104918420631580569771)
-- [Facebook](http://www.facebook.com/manuel.doninger)
-- [Xing](http://www.xing.com/profile/Manuel_Doninger)
+- [Xing](https://www.xing.com/profile/Manuel_Doninger)
+- [LinkedIn](https://www.linkedin.com/in/mdoninger/)
 
